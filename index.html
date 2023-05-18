@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+              <h3 >HOME</h3>
+                <h2 id="home-score" class="scoreboard-home">0</h2>
+                
+                <div class="">
+                <button id="home-score-one" onclick="plusOne()">+1</button>
+                <button id="home-score-two" onclick="plusTwo()">+2</button>
+                <button id="home-score-two" onclick="plusThree()">+3</button>
+            </div>
+            <div class="guest">
+                <h3>GUEST</h3>
+                <h2 id="guest-score" class="scoreboard-guest">0</h2>
+
+                <div class="operate">
+                <button id="guest-score-btn-1" onclick="guestPlusOne()">+1</button>
+                <button id="guest-score-btn-2" onclick="guestPlusTwo()">+2</button>
+                <button id="guest-score-btn-3" onclick="guestPlusThree()">+3</button>
+            </div>
+            </div>
+
+            <div>
+                <button id="save-btn" onclick="saveCounts()">Save</button>
+               
+            </div>
+            
+            <p id="save-el">Previous entires: </p>
+          
+
+            
+        </div>
+
+
+        
+        <script src="main.js"></script>
+    </body>
+</html>

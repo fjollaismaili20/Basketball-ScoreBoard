@@ -1,0 +1,41 @@
+body {
+    margin:  0;
+    text-align: center;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+  
+
+  
+}
+
+.scoreboard-home,
+.scoreboard-guest {
+  
+
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+h3,p{
+    color: white;
+}
+button{
+    border-radius: 5px;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+}
+
+#save-btn{
+    margin-top: 10px;
+}
+
+
+
+
